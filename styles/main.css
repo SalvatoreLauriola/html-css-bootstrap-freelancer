@@ -144,3 +144,40 @@ text-align: center;
 .img-port:hover .layover i {
   display: inline;
 }
+
+#info {
+  background-color: #1abc9c;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#info h4  {
+  color: white;
+}
+
+#info .texto i {
+  color: white;
+}
+
+#info .texto::before,
+#info .texto::after {
+  content: '';
+  height: 3px;
+  background-color: white;
+  width: 10%;
+  line-height: 5px;
+  display: inline-block;
+}
+
+#info .btn-border {
+  border: 1px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
+
+#info .btn-border i {
+  margin-right: 5px;
+}
