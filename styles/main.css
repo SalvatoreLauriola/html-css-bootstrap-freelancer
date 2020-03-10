@@ -181,3 +181,70 @@ text-align: center;
 #info .btn-border i {
   margin-right: 5px;
 }
+
+.contact .container .row>h4 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  padding-top: 40px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #2c3e50;
+  font-size: 20px;
+}
+
+.form input,
+.form textarea {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border: none;
+  box-shadow: none;
+  border-bottom: 1px solid lightgrey;
+  border-radius: unset;
+}
+
+.row .bottone a {
+  background-color: #1abc9c;
+  color: white;
+}
+
+.first-foot {
+  margin-top: 40px;
+  padding: 20px 0;
+  background-color: #3a546d;
+  color: white;
+}
+
+.first-foot h4,
+.first-foot li {
+  color: white;
+  font-size: 25px;
+}
+
+.foot p {
+  font-size: 20px;
+}
+
+.first-foot .foot a {
+  color: white;
+  width: 15px;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.list-inline li {
+  padding-top: 20px;
+}
+
+.bott-foot {
+  background-color: #2c3e50;
+}
+
+.bott-foot h6 {
+  font-size: 15px;
+  color: white;
+  padding: 30px;
+}
